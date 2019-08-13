@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.WarframeFragment">
+
+    <TextView
+        android:id="@+id/tv_world_time"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/border_rectangle"
+        android:layout_margin="5dp"
+        android:text="世界时间"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/tv_invasions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/border_rectangle"
+        android:layout_margin="5dp"
+        android:text="派系入侵"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/tv_fissures"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/border_rectangle"
+        android:layout_margin="5dp"
+        android:text="虚空裂隙"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/tv_sortie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/border_rectangle"
+        android:layout_margin="5dp"
+        android:text="每日突击"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/tv_syndicate_missions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/border_rectangle"
+        android:layout_margin="5dp"
+        android:text="赏金任务"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/tv_night_wave"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/border_rectangle"
+        android:layout_margin="5dp"
+        android:text="午夜电波"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/tv_events"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:background="@drawable/border_rectangle"
+        android:layout_margin="5dp"
+        android:text="活动事件"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimaryDark"/>
+</LinearLayout>

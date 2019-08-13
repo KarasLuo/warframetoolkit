@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:id="@+id/group_site">
+        <item
+            android:id="@+id/nav_wf_website"
+            android:icon="@drawable/ic_wangzhan"
+            android:title="Warframe官网" />
+        <item
+            android:id="@+id/nav_wiki_cn"
+            android:icon="@drawable/ic_zhongwen"
+            android:title="中文维基" />
+        <item
+            android:id="@+id/nav_wiki_en"
+            android:icon="@drawable/ic_yingwen"
+            android:title="英文维基" />
+        <item
+            android:id="@+id/nav_riven_im"
+            android:icon="@drawable/ic_search"
+            android:title="极镜" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group_market">
+
+        <item
+            android:id="@+id/nav_wf_market"
+            android:icon="@drawable/ic_market"
+            android:title="Warframe市场" />
+
+        <item
+            android:id="@+id/nav_riven_market"
+            android:icon="@drawable/ic_riven"
+            android:title="紫卡市场" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/group_share">
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_fenxiang"
+            android:title="分享至QQ" />
+    </group>
+</menu>

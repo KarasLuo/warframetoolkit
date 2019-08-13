@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_light"
+    android:padding="20dp"
+    android:orientation="horizontal"
+    android:layoutDirection="ltr">
+
+    <TextView
+        android:id="@+id/tv_syndicate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Loading"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/tv_eta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Loading"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"/>
+</LinearLayout>
