@@ -319,18 +319,6 @@ public final class TranslateMap {
         put("thermia fractures","热美亚裂缝");
         put("relay station tenno con","中继站Tenno议会");
         put("plague star","瘟疫之星");
-//        put("","");
-//        put("Weaken the Grineer Foothold","一阶赏金");
-//        put("Cull the Enemy","二阶赏金");
-//        put("find the hidden artifact","二阶赏金");
-//        put("Capture the Grineer Commander","三阶赏金");
-//        put("Reclaim the Stolen Artifact","四阶赏金");
-//        put("Capture the New Grineer Commander","五阶赏金");
-//        put("Venus Cull Job Exterminate","一阶赏金");
-//        put("Venus Helping Job Caches","二阶赏金");
-//        put("Resource Theft","三阶赏金");
-//        put("Picket Duty","四阶赏金");
-//        put("Tax the Taxmen","五阶赏金");
         put("Credit","现金");
         put("relic","遗物");
         put("Credits","现金");
@@ -442,6 +430,10 @@ public final class TranslateMap {
         put("balor","巴罗尔");
         put("tac alert water fight","三伏天");
         put("free roam","自由漫步");
+        put("pattern","模式");
+        put("mismatch","不匹配");
+        put("results","结果");
+        put("inaccurate","不准确");
         put("","");
         put("","");
     }

@@ -4,27 +4,18 @@
     <color name="colorPrimaryDark">#334455</color>
     <color name="colorPrimaryLight">#778899</color>
     <color name="colorAccent">#0068B6</color>
-    <color name="transparent">#01000000</color>
     <color name="whiteBackground">#e5e5e5</color>
     <color name="gray">#333333</color>
     <color name="gray_light">#999999</color>
     <color name="gray_light_light">#c5c5c5</color>
-    <color name="gray_light_light_light">#d5d5d5</color>
     <color name="black">#000000</color>
     <color name="black_light">#555555</color>
     <color name="white">#ffffff</color>
     <color name="white_light">#eeeeee</color>
-    <color name="white_dark">#aaaaaa</color>
-    <color name="orange_dark">#E65100</color>
 
     <color name="orange">#884400</color>
-    <color name="green">#22a064</color>
     <color name="blue">#5566ff</color>
     <color name="red">#bb3344</color>
-    <color name="purple">#aa55ff</color>
-    <color name="yellow">#778811</color>
-    <color name="blue_light">#339999</color>
     <color name="fuchsine">#881166</color>
-    <color name="yellow_light">#88bb77</color>
     <color name="blue_dark">#4444aa</color>
 </resources>

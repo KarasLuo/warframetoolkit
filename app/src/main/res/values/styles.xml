@@ -10,22 +10,12 @@
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
     <style name="LunchTheme" parent="Theme.AppCompat.NoActionBar">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:windowBackground">@mipmap/warframe</item>
+        <item name="android:windowBackground">@mipmap/wf_bg</item>
     </style>
 
     <!--app中activity跳转的动画-->
-    <style name="AnimationActivity" parent="@android:style/Animation.Translucent">
-        <item name="android:windowEnterAnimation">@null</item>
-        <item name="android:windowExitAnimation">@null</item>
-        <item name="android:activityOpenEnterAnimation">@anim/push_right_in</item>
-        <item name="android:activityOpenExitAnimation">@anim/push_left_out</item>
-        <item name="android:activityCloseEnterAnimation">@anim/push_left_in</item>
-        <item name="android:activityCloseExitAnimation">@anim/push_right_out</item>
-    </style>
 </resources>

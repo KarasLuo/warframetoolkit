@@ -50,11 +50,12 @@ public class MyApplication extends Application {
     }
 
     public static void initKeepAlive(Application app){
-        ForegroundNotification fn=new ForegroundNotification("测试", "描述", R.mipmap.wf_icon,
+        ForegroundNotification fn=new ForegroundNotification("测试", "正在后台运行", R.mipmap.wf_icon,
                 new ForegroundNotificationClickListener() {
                     @Override
                     public void foregroundNotificationClick(Context context, Intent intent) {
                         Log.i(TAG,"KeepLiveService foregroundNotificationClick");
+                        context.startActivity(new Intent(context,LaunchActivity.class));
                     }
                 });
         KeepLive.startWork(app, KeepLive.RunMode.ROGUE, fn,
@@ -69,7 +70,7 @@ public class MyApplication extends Application {
                         Log.i(TAG,"KeepLiveService onStop");
                     }
                 });
-    }
+}
 
     public static void initSkinManager(){
 //        SkinCompatManager.withoutActivity(this)                         // 基础控件换肤初始化

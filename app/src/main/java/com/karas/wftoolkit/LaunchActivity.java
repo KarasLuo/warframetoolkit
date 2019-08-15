@@ -1,26 +1,17 @@
 package com.karas.wftoolkit;
 
 import android.content.Intent;
-import android.nfc.Tag;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.karas.wftoolkit.CommonUtils.SharedPreferencesUtils;
-import com.karas.wftoolkit.CommonUtils.ToastUtils;
-import com.karas.wftoolkit.DBFlow.TranslateDataBaseUtils;
-import com.karas.wftoolkit.DBFlow.TranslateMap;
-import com.karas.wftoolkit.DBFlow.TranslateTable;
 import com.karas.wftoolkit.Mail.EmailConstants;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 import io.reactivex.Observable;
 import io.reactivex.ObservableEmitter;
 import io.reactivex.ObservableOnSubscribe;
-import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
